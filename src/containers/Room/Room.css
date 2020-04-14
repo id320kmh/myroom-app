@@ -1,0 +1,9 @@
+.products-wrapper {
+    min-width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}

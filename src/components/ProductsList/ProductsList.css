@@ -1,0 +1,32 @@
+.products-list-wrapper {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    min-height: 400px;
+    /* padding: 0 50px; */
+    justify-content: center; 
+}
+
+.product-list-inner {
+    width: 90%;
+    min-height: 100%;
+    border: 1px solid #999;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+    background-color: #fff;
+    overflow-x: scroll;
+    /* will-change: scroll-position; */
+}
+
+.product-list-table {
+    width: 90%;
+    min-height: 100%;
+    border: 1px solid #eee;
+}
+
+.product-list-table th, .product-list-table td {
+    /* display: inline-block;
+    max-width: 300px; */
+}

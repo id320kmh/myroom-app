@@ -1,0 +1,47 @@
+.task__container {
+    text-align: start;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 70px;
+}
+
+.task__row {
+	max-width: 70%;
+}
+
+.task__block-bottom {
+	padding-bottom: 50px;
+}
+
+h2, p {
+    font-size: 20px;
+  	font-style: normal;
+  	color: rgb(61, 56, 56);
+}
+
+h2 {
+	font-size: 26px;
+}
+
+p {
+	margin-left: 20px;
+}
+
+.task__img {
+	width: 100%;
+}
+
+@media (max-width: 800px) {
+	.task__container {
+		margin-top: 30px;
+	}
+
+	.task__row {
+		max-width: 90%;
+	}
+
+	.task__img {
+	}
+}

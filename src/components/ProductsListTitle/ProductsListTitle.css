@@ -1,0 +1,10 @@
+.products-list-title {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+
+.products-list-title h1 {
+    color: #555;
+}
